@@ -1,5 +1,5 @@
-import './App.css' 
-import React from 'react';
+require('./App.css') 
+const React = require('react');
 
 function App() {
   const [data, setData] = React.useState(null);
